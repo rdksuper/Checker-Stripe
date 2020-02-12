@@ -3,13 +3,13 @@
 return $config = Array(
 
 	// Enable test mode (not require HTTPS) 
-	'test-mode'  => true,
+	'test-mode'  => false,
 
 	// Secret Key from Stripe.com Dashboard
-	'secret-key' => 'sk_live_SUA KEY',
+	'secret-key' => 'sk_live_8ukVG6LUIXtukGzHWcU0tiMc00BwacfO3M',
 
 	// Publishable Key from Stripe.com Dashboard
-	'publishable-key' => 'pk_live_SUA KEY',
+	'publishable-key' => 'pk_live_woqSHPeDMkEhMeoUSpiRHgDw009Fd84TW2',
 
 	// Where to send upon successful donation (must include http://)
 	'thank-you'  => ' thankyou.html',
